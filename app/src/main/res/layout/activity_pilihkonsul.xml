@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Pilihkonsul">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+
+            <androidx.appcompat.widget.AppCompatImageButton
+                android:id="@+id/backKonsul"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="19dp"
+                android:layout_marginBottom="26dp"
+                android:background="?android:attr/selectableItemBackground"
+                android:contentDescription="@string/a"
+                android:padding="12dp"
+                android:src="@drawable/back"
+                android:text="Back"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="89dp"
+                android:layout_marginTop="40dp"
+                android:layout_toRightOf="@+id/backKonsul"
+                android:fontFamily="@font/inter_bold"
+                android:text="Konsultasi"
+                android:textColor="#000000"
+                android:textSize="23dp"
+                android:textStyle="bold" />
+
+
+        </RelativeLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#000000"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="265dp"
+            android:layout_marginTop="10dp">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/konsultan0"
+                android:layout_width="150dp"
+                android:layout_height="180dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="30dp"
+                android:clickable="true"
+                android:onClick="onCardViewClick"
+                android:tag="0"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="10dp">
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:layout_width="160dp"
+                    android:layout_height="180dp"
+                    android:src="@drawable/lah"
+                    app:shapeAppearanceOverlay="@style/radius" />
+
+                <Button
+                    android:id="@+id/btnkonsul1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginTop="125dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="#30000000"
+                    android:fontFamily="@font/inter_semibold"
+                    android:text="Rian Hilmi\n\Hidayatullah"
+                    android:textAlignment="center"
+                    android:textColor="#ffffff"
+                    android:textSize="10sp" />
+
+            </androidx.cardview.widget.CardView>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/konsultan0"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="3dp"
+                android:fontFamily="@font/inter_semibold"
+                android:onClick="openWhatsApp"
+                android:text="konsultasi" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/konsultan1"
+                android:layout_width="150dp"
+                android:layout_height="180dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="30dp"
+                android:clickable="true"
+                android:onClick="onCardViewClick"
+                android:tag="1"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="10dp">
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:layout_width="160dp"
+                    android:layout_height="200dp"
+                    android:src="@drawable/percobaan2"
+                    app:shapeAppearanceOverlay="@style/radius"
+                    app:strokeColor="#000000"
+                    app:strokeWidth="1dp" />
+
+                <Button
+                    android:id="@+id/btnkonsul2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="125dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="#30000000"
+                    android:fontFamily="@font/inter_semibold"
+                    android:text="Ronaldowati\n\Vinicius Junior"
+                    android:textAlignment="center"
+                    android:textColor="#ffffff"
+                    android:textSize="10sp" />
+
+            </androidx.cardview.widget.CardView>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/konsultan1"
+                android:layout_marginLeft="235dp"
+                android:layout_marginTop="3dp"
+                android:fontFamily="@font/inter_semibold"
+                android:onClick="openWhatsApp"
+                android:text="konsultasi" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="271dp">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/konsultan2"
+                android:layout_width="150dp"
+                android:layout_height="180dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="30dp"
+                android:tag="2"
+                app:cardCornerRadius="20dp">
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:layout_width="160dp"
+                    android:layout_height="180dp"
+                    android:src="@drawable/lah2"
+                    app:shapeAppearanceOverlay="@style/radius" />
+
+                <Button
+                    android:id="@+id/btnkonsul3"
+                    android:layout_width="110dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginTop="125dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="#20000000"
+                    android:fontFamily="@font/inter_semibold"
+                    android:text="Joko Lionel\n\Megatron"
+                    android:textAlignment="center"
+                    android:textColor="#ffffff"
+                    android:textSize="10sp" />
+            </androidx.cardview.widget.CardView>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/konsultan2"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="3dp"
+                android:fontFamily="@font/inter_semibold"
+                android:onClick="openWhatsApp"
+                android:text="konsultasi" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/konsultan3"
+                android:layout_width="150dp"
+                android:layout_height="180dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="30dp"
+                android:clickable="true"
+                app:cardCornerRadius="20dp">
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:layout_width="180dp"
+                    android:layout_height="200dp"
+                    android:layout_marginBottom="200dp"
+                    android:src="@drawable/lah4"
+                    app:shapeAppearanceOverlay="@style/radius" />
+
+                <Button
+                    android:id="@+id/btnkonsul4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="125dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="#30000000"
+                    android:fontFamily="@font/inter_semibold"
+                    android:text="Michael\n\Ahmad Dahlan"
+                    android:textAlignment="center"
+                    android:textColor="#ffffff"
+                    android:textSize="10sp" />
+            </androidx.cardview.widget.CardView>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/konsultan3"
+                android:layout_marginLeft="235dp"
+                android:layout_marginTop="3dp"
+                android:fontFamily="@font/inter_semibold"
+                android:onClick="openWhatsApp"
+                android:text="konsultasi" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+</ScrollView>
