@@ -1,4 +1,7 @@
-  Kelompok WOILAHCIK
+Nama Aplikasi:  Dengue Care
+
+Nama Kelompok: WOILAHCIK
+
 Ketua : KHIFRAN DANNY WARAPRADA
 Anggota:RIDZKY PUTRA DWITAMA
 Anggota:MUHAMMAD ALVANDITYA SASONGKO
