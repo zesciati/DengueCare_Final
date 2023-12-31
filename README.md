@@ -25,5 +25,5 @@ Anggota 4:
 - Membuat register
 
 Anggota 5:
-- Membuat Profile
+- Membuat profile
 - Membuat edit profile 
