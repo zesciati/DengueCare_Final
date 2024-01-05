@@ -4,7 +4,7 @@ Nama Kelompok: WOILAHCIK
 Nama Anggota:
 1) Khifran Danny (21523202)  +62 822-5886-4305 (No Kontak Leader)
 2) Rian Hilmi (21524164)
-3) M. Alvanditya Sasongko (21523014)
+3) 
 4) Ridzky Putra Dwitama (21523151)
 5) Zaky Abiyyu Andri (21523086)
 
@@ -17,8 +17,6 @@ Anggota 2:
  - Membuat list konsul
 
 Anggota 3:
-- Membuat diagnosis
-- Membuat fitur chat
 
 Anggota 4:
 - Membuat login
