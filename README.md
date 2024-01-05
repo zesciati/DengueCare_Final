@@ -6,7 +6,7 @@ Nama Anggota:
 2) Rian Hilmi (21524164)
 3) M. Alvanditya Sasongko (21523014)
 4) Ridzky Putra Dwitama (21523151)
-5) Zaky Abiyyu Andri (21523086)
+
 
 Job Desc:
 Anggota 1:
@@ -24,6 +24,3 @@ Anggota 4:
 - Membuat login
 - Membuat register
 
-Anggota 5:
-- Membuat profile
-- Membuat edit profile 
